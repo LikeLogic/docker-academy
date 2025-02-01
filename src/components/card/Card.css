@@ -1,0 +1,93 @@
+.card_conteiner{
+    max-width: 200px;
+    border: 1px solid #373743;
+    border-radius: 8px;
+    padding: 8px;
+    
+}
+
+.card_header {
+
+    padding: 4px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;   
+    align-items: center;
+    background-color: navy;
+}
+
+.card_haeder_title{
+    color: white;
+}
+
+.card_haeder_location{
+    color: white;
+}
+
+
+.card_body{
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card_body_rent_information{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.card_body_rent_information_title{
+    text-align: center;
+    font-size: 18px;
+}
+
+.card_body_rent_information_list{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    
+}
+
+.card_body_rent_information_list_item{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card_body_margage_information{
+
+}
+
+.card_body_margage_information_text {
+    text-align: center;
+}
+
+.card_body_pricing_information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_body_pricing_information_house {
+
+}
+
+.card_body_pricing_information_hotel {
+
+}
+
+.card_body_pricing_information_addition {
+
+}
+
+.card_footer{
+
+}
+
+.card_footer_text {
+    font-size: 10px;
+    text-align: center;
+}
