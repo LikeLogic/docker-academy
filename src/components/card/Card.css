@@ -3,7 +3,13 @@
     border: 1px solid #373743;
     border-radius: 8px;
     padding: 8px;
+    cursor: pointer;
+    transition: background-color .2s linear;
     
+}
+
+.card_conteiner:hover {
+    background-color: #adadad;
 }
 
 .card_header {

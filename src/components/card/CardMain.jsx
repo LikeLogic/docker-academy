@@ -1,10 +1,10 @@
 
 
-export const CardMain = () => {
+export const CardMain = (props) => {
     return (
         <div className="card_body">
             <div className="card_body_rent_information">
-                <h6 className="card_body_rent_information_title">Rent $4</h6>
+                <h6 className="card_body_rent_information_title">Rent ${props.rent_price}</h6>
                 <div className="card_body_rent_information_list">
                     <div className="card_body_rent_information_list_item">
                         <p>With 1 House</p>
